@@ -1,0 +1,66 @@
+@media (max-width: 1025px) {
+    
+    .container {
+        width: 85%;
+    }
+    
+    .nav {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .about__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services__box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer__links {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 30px 0 0;
+    }
+    
+    .footer__social {
+        width: 100px;
+    }
+    
+    .footer__company {
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer__links {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .footer__content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__contact-title {
+        display: none;
+    }
+}

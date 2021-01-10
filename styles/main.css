@@ -115,7 +115,7 @@ a {
 
 .about {
     position: relative;
-    padding: 57px 0 117px;
+    padding: 57px 0 calc(50px + 4.8vw);
 }
 
 .about__content {

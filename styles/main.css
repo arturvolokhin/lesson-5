@@ -36,7 +36,7 @@ a {
 }
 
 .header__title {
-    margin: 22% 0 7px;
+    margin: 317px 0 7px;
     font-family: 'Bebas Neue', cursive;
     font-size: calc(20px + 2.7vw);
     letter-spacing: 5px;
@@ -166,15 +166,15 @@ a {
 }
 
 .about__image--manage {
-    background: url(../images/manage.png) no-repeat;
+    background: url(../images/manage.png) no-repeat center/cover;
 }
 
 .about__image--build {
-    background: url(../images/build.png) no-repeat;
+    background: url(../images/build.png) no-repeat center/cover;
 }
 
 .about__image--plan {
-    background: url(../images/plan.png) no-repeat;
+    background: url(../images/plan.png) no-repeat center/cover;
 }
 
 .about__images-text {
@@ -236,6 +236,7 @@ a {
     margin: 20px 10px 0;
     max-width: 31%;
     min-width: 250px;
+    text-align: left;
     border: 1px solid #E6E6E6;
 }
 
@@ -254,7 +255,6 @@ a {
 .services__item-title {
     margin: 0 0 13px;
     font-family: Open Sans;
-    text-align: left;
     line-height: 24px;
     text-transform: uppercase;
     font-weight: 700;
@@ -265,7 +265,6 @@ a {
 .services__item-descr {
     font-family: Open Sans;
     font-size: 13px;
-    text-align: left;
     line-height: 23px;
     color: #48555B;
 }
@@ -604,6 +603,7 @@ a {
 
 .button-newsletter {
     padding: 10px 49px;
+    -webkit-appearance: none;
 }
 
 .logo {

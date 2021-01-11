@@ -1,5 +1,4 @@
 * {
-    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
 }
 
@@ -31,7 +30,7 @@ a {
 
 
 .header {
-    background: url(../images/bg/header.jpg) center;
+    background: url(../images/bg/header.jpg) no-repeat center;
     padding: 35px 0 70px;
 }
 
@@ -58,6 +57,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 3.7px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 

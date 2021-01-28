@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Konstruct</title>
 </head>
 <body>
     <div class="menu-btn">
@@ -16,22 +16,21 @@
     </div>
     <div class="wrapper">
         <header class="header">
-            <!-- <img class="header__logo" src="images/logo-white.png" alt="logo" class="logo"><br><br> -->
             <span class="logo">konstru</span><div class="triangle"></div><span class="logo">t</span>
-            <h1 class="header__title">Partner with konstuct</h1>
+            <h1 class="header__title">Partner with konstruct</h1>
             <h2 class="header__subtitle">An award-winning construction management firm</h2>
-            <p class="header__scroll">Scroll down</p>
+            <a class="header__link" href="#down"><p class="header__scroll">Scroll down</p></a>
         </header>
         <nav class="nav">
             <div class="nav__logo">
                 <span class="logo logo--nav">konstru</span><div class="triangle triangle--nav"></div><span class="logo logo--nav">t</span>
             </div>
-            <ul class="nav__ul">
-                <li class="nav__li"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav__li"><a href="#" class="nav__link">About</a></li>
-                <li class="nav__li"><a href="#" class="nav__link">Services</a></li>
-                <li class="nav__li"><a href="#" class="nav__link">Work</a></li>
-                <li class="nav__li"><a href="#" class="nav__link">Contact</a></li>
+            <ul class="nav__list" id="down">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
             </ul>
         </nav>
         <main class="main">
@@ -64,7 +63,7 @@
                         <div class="services__box">
                             <p class="services__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
                                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
-                                <button class="button"><a href="#">All services</a></button> 
+                            <a href="#"><button class="button">All services</button></a> 
                         </div>
                     </div> 
                     <div class="services__main">
@@ -87,8 +86,10 @@
                 </div>
             </div>
             <div class="get">
-                <h2 class="get__title">Want to build something amazing?</h2>
-                <button class="button"><a href="#">Get in touch</a></button>
+                <div class="container">
+                    <h2 class="get__title">Want to build something amazing?</h2>
+                    <button class="button"><a href="#">Get in touch</a></button>
+                </div>
             </div>
             <div class="newsletter">
                 <div class="container">
